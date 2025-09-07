@@ -172,10 +172,21 @@ ul,ol{
 .bannerText i{
     margin-left: 10px;
 }
-.bannerText h3:hover{
-    transform: scale(1.05);
+.bannerText h3{
+    position: relative;
+}
+.bannerText h3::after{
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background: #FAFAFA;
+    left: 0;
+    content: "";
+    top: 35px;
+}
+.bannerText h3:hover::after{
+    width: 40%;
     transition: .4s;
-    
 }
 .image{
     margin-left: 100px;
