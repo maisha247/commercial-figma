@@ -81,12 +81,14 @@ ul,ol{
 .d-flex {
     position: relative;
     outline: none !important;
+    width: 260px;
 }
 .d-flex i{
     position: absolute;
-    left: 191px;
+    left: 225px;
     top: 12px;
     color: black;
+    font-size: 14px;
 }
 .d-flex i:hover{
     color: #959595;
@@ -185,7 +187,7 @@ ul,ol{
     top: 35px;
 }
 .bannerText h3:hover::after{
-    width: 40%;
+    width: 37%;
     transition: .4s;
 }
 .image{
