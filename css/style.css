@@ -289,6 +289,21 @@ ul,ol{
     border: 2px solid #DB4444;
     transition: .4s;
 }
+.product{
+    padding-top: 30px;
+}
+.productImg{
+    position: relative;
+}
+.iconOverlay a{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    margin-top: 10px;
+}
+.iconOverlay i{
+    margin-top: 10px;
+}
 /* this month part end */
 
 /* header part start  */
